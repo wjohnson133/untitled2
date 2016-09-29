@@ -7,5 +7,5 @@ from lxml import html
 
 page = requests.get('http://econpy.pythonanywhere.com/ex/001.html')
 tree = html.fromstring(page, base_url="http://econpy.pythonanywhere.com/ex/001.html")
-print tree
+print treea
 
